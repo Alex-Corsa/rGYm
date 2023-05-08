@@ -1,0 +1,48 @@
+.header {
+    &__line {
+        margin-top: 10px;
+        min-height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        column-gap: 75px;
+        color: #FFFFFF;
+    }
+    &__info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 37px;
+    }
+    &__schedule {
+        display: flex;
+        align-items: center;
+    }
+    &__link {
+        padding: 9px 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    &__link:hover{
+        background-color: #A92A1D;
+    }
+    &__menu-mob {
+        display: none;
+        text-align: center;
+    }
+    &__nav-mob {
+        display: none;
+    }
+    &__ul-mob {
+        display: flex;
+        flex-direction: column;
+    }
+    &__li-mob {
+        padding: 10px 0;
+    }
+    &__link-mob {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}

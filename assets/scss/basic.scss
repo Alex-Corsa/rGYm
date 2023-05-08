@@ -1,0 +1,31 @@
+body {
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+li {
+    display: inline-block;
+}
+
+.wrapper {
+    padding: 0 15px;
+}
+
+.container {
+    max-width: 1570px;
+    padding: 0 15px;
+}
+
+.container, .container-content {
+    margin: 0 auto;
+}
+
+.container-content {
+    max-width: 1300px;
+}
+
+::placeholder {
+    color: white;
+}
